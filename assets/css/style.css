@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #345a7e;
+  --primary-dark: #09315c;
+  --background: #DDF3FF;
+  --surface: #FFFFFF;
+  --surface-light: #F4FAFF;
+  --border: #D5EAF8;
+
+  --categorie1: #2196F3;
+  --categorie2: #FFC233;
+  --categorie3: #20B486;
+  --categorie4: #F43F78;
+  --categorie5: #8B68E8;
+
+  --high: #EF4444;
+  --medium: #F5B82E;
+  --low: #20B486;
+}
+
+body {
+  background-image:url('/assets/img/background.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--primary-dark);
+}
+
+p,
+span {
+  color: var(--primary);
+}
+
+#header > h1 {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 28px;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+#header > h1 > span {
+  margin-top: 8px;
+}
+
+main {
+  display: flex;
+  gap: 20px;
+}
+
+.main-content {
+  flex: 3;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.main-content > * {
+  background-color: var(--surface);
+  padding: 16px 24px 16px 24px;
+  border-radius: 12px;
+}
+
+.register-task {
+  display: flex;
+  gap: 6px;
+  flex-direction: column;
+}
+
+
+
+.sidebar {
+  flex: 1;
+}

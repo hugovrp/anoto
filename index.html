@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Anotô</title>
+  </head>
+
+  <body>
+    <header id="header">
+      <h1>
+        <span>🗹</span>
+        Anotô
+      </h1>
+    </header>
+
+    <main>
+      <section class="main-content">
+        <article>
+          <h1>Minhas Tarefas</h1>
+          <p>Organize seu dia e conquiste seus objetivos.</p>
+
+          <div class="register-task">
+            <input type="text" name="task" id="task-inp">
+            
+            <div class="buttons-sec">
+              <!--
+                data vencimento ?
+              --> 
+
+              <select name="categorie" id="categorie-sec">
+                <option value="">Categoria</option>
+              </select>
+
+              <select name="priority" id="priority-sec">
+                <option value="">Prioridade</option>
+              </select>
+
+              <button id="btn-add">Adicionar</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="tasks">
+
+        </article>
+      </section>
+
+      <section class="sidebar">
+        <div>
+          <!-- 
+            Progresso 
+          -->
+        </div>
+        
+        <div>
+          <!-- 
+            Categorias
+          -->
+        </div>
+        
+        <p>Grandes objetivos são construídos com pequenos passos.</p>
+      </section>
+    </main>
+
+    <script type="module" src="/assets/js/app.js"></script>
+  </body>
+</html>
